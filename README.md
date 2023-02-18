@@ -1,2 +1,2 @@
 # design4women.org
-Women Graphic Designer
+Women Graphic Designers in Wisconsin
