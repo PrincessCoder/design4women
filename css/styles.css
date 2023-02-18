@@ -27,15 +27,26 @@ html {
   padding: 4em;
 }
 
-body {
+header{
   font-family: Helvetica, sans-serif;
   background-color: #f4f4f4;
-  font-size: medium;
+  font-size: small;
   color: gray;
   font-weight: 400;
   font-style: normal;
   font-size: 1em;
-  line-height: 1.5em;
+  line-height: 1em;
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: gray;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.25rem;
   letter-spacing: 0em;
   text-rendering: optimizeLegibility;
   margin: 0;
@@ -55,11 +66,7 @@ a {
   /* header */
   
   .header {
-    /* background-color: #fff; */
-    /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
-    /* position: fixed; */
     width: 100%;
-    /* z-index: 3; */
   }
   
   .header ul {
@@ -67,7 +74,6 @@ a {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    /* background-color: #fff; */
   }
   
   .header li a {
@@ -212,15 +218,6 @@ h1{
   margin-bottom: auto;
 }
 
-/* .npm, h1 {
-  font-family: var(--font-header);
-  font-size: medium;
-  color: #418393;
-  width: 800px;
-  text-align: center;
-  text-transform: uppercase;
-} */
-
 h2 {
   font-family: var(--font-header);
   color: #418393;
@@ -239,7 +236,6 @@ h3{
 h4{
   font-family: var(--font-header);
   color: var(--green);
-  /* text-transform: uppercase; */
   font-weight: 300;
   font-size: large;
 }
@@ -249,12 +245,6 @@ h5 {
   font-weight: normal;
   font-style: italic;
 }
-
-/* ul, li {
-  list-style-type: none;
-  display: flex;
-  flex: 1 1 100%;
-} */
 
 figcaption {
 text-align: center;
@@ -342,17 +332,6 @@ hr {
     flex: 1 0 100%;
   }
 
-
-/*Problem Statement*/
-
-/* .problems {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 3rem;
-} */
-
 a:hover, a:focus, a:active{
   color: #666d47;
   text-decoration: none;
@@ -370,8 +349,6 @@ a:link {
 a.menu-links {
   font-family: Helvetica, sans-serif;
   position: relative;
-  /* display: block; */
-  /* padding: 16px 0; */
   margin: 0 12px;
   letter-spacing: 1px;
   font-size: 12px;
@@ -404,7 +381,6 @@ a.menu-links:hover::before, a.menu-links:focus::before {
 
 /*footer*/
 .footer {
-  /* background: rgb(212, 215, 213); */
   color: #6e706f;
   margin: 4em;
 }
@@ -428,7 +404,6 @@ a.menu-links:hover::before, a.menu-links:focus::before {
 }
 
 /*bibliography*/
-
 .bibliography {
 
 }
