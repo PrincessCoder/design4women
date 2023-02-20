@@ -59,6 +59,7 @@ h1{
   font-family: var(--font-header);
   font-size: medium;
   font-weight: 300;
+  text-transform: uppercase;
   color: rgb(5, 52, 90);
   width: 100%;
   margin-top: 1em;
@@ -70,7 +71,7 @@ h2 {
   color: rgb(5, 52, 90);
   text-transform: uppercase;
   font-weight: 300;
-  font-size: medium;
+  font-size: small;
 }
 
 h3{
